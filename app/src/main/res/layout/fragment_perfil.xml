@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PerfilFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <!-- ícone do Perfil -->
+    <View
+        android:id="@+id/profile_icon"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="176dp"
+        android:background="@drawable/ic_baseline_person_pin_24" />
+
+
+    <EditText
+        android:id="@+id/editTextTextPersonName1"
+        android:layout_width="361dp"
+        android:layout_height="56dp"
+        android:layout_gravity="start"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="168dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/hint_name"
+        android:inputType="textPersonName"
+        android:text="@string/user_name"
+        android:textColorHint="#757575" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="361dp"
+        android:layout_height="56dp"
+        android:layout_gravity="start"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="240dp"
+        android:ems="10"
+        android:hint="@string/hint_city"
+        android:inputType="textPersonName"
+        android:text="@string/city_name"
+        android:textColorHint="#757575"
+        android:autofillHints="" />
+
+    <Spinner
+        android:id="@+id/spinner_states"
+        android:layout_width="361dp"
+        android:layout_height="56dp"
+        android:layout_gravity="start"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="312dp"
+        android:spinnerMode="dropdown" />
+
+    <Spinner
+        android:id="@+id/spinner_plans"
+        android:layout_width="361dp"
+        android:layout_height="56dp"
+        android:layout_gravity="start"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="384dp"
+        android:spinnerMode="dropdown"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="127dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="460dp"
+        android:clipToOutline="true"
+        android:hint="@string/button_hint"
+        android:text="@string/save_button"
+        android:textSize="20dp" />
+</FrameLayout>
