@@ -2,42 +2,14 @@
     <string name="app_name">MyApp</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_home_fragment">Hello</string>
-    <string name="user_name">   </string>
+    <string name="name">  </string>
     <string name="hint_name"> Nome completo </string>
-    <string name="city_name">  </string>
-    <string name="hint_city"> Cidade </string>
-    <string-array name="spinner_states">
-        <item>Acre</item>
-        <item>Alagoas</item>
-        <item>Amapá</item>
-        <item>Amazonas</item>
-        <item>Bahia</item>
-        <item>Ceará</item>
-        <item>Distrito Federal</item>
-        <item>Espírito Santo</item>
-        <item>Goiás</item>
-        <item>Maranhão</item>
-        <item>Mato Grosso</item>
-        <item>Mato Grosso do Sul</item>
-        <item>Minas Gerais</item>
-        <item>Pará</item>
-        <item>Paraíba</item>
-        <item>Paraná</item>
-        <item>Pernambuco</item>
-        <item>Piauí</item>
-        <item>Rio de Janeiro</item>
-        <item>Rio Grande do Norte</item>
-        <item>Rio Grande do Sul</item>
-        <item>Rondônia</item>
-        <item>Roraima</item>
-        <item>Santa Catarina</item>
-        <item>São Paulo</item>
-        <item>Sergipe</item>
-        <item>Tocantins</item>
-    </string-array>
-    <string name="health_care_plan"> </string>
-    <string name="hcp_hint">" Plano de Saúde"</string>
-    <string name="save_button">" Salvar "</string>
-    <string name="button_hint">" Salvar "</string>
+    <string name="city"> </string>
+    <string name="hint_city">Cidade</string>
+    <string name="state"> </string>
+    <string name="hint_state">Estado</string>
+    <string name="healthcare_plan">""</string>
+    <string name="hcp_hint">Plano de Saúde</string>
+    <string name="save_button">Salvar</string>
 
 </resources>

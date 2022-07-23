@@ -3,10 +3,12 @@
     <string name="app_name">MyApp</string>
     <string name="hint_city">Cidade</string>
     <string name="hint_name">Nome completo</string>
-    <string name="city_name">Cidade</string>
-    <string name="user_name">Nome completo</string>
     <string name="hello_home_fragment">Olá do Fragmento Home</string>
-    <string name="spinner_states">Estados</string>
-    <string name="health_care_plan">Plano de Saúde</string>
     <string name="hcp_hint">Plano de Saúde</string>
+    <string name="hint_state">Estado</string>
+    <string name="save_button">Salvar</string>
+    <string name="healthcare_plan">Plano de Saúde</string>
+    <string name="name">Nome completo</string>
+    <string name="city">Cidade</string>
+    <string name="state">Estado</string>
 </resources>
