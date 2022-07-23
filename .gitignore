@@ -23,11 +23,17 @@
 hs_err_pid*
 
 # Gradle files
-.gradle/
+.DS_Store
+.gradle
+.idea/
+.externalNativeBuild
 build/
+captures/
+*.iml
 
 # Local configuration file (sdk path, etc)
 local.properties
 
 node_modules
 .env
+*-lock.json
